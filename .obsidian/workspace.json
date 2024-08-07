@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "c8b15a9815726c25",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc8e54d24a1c9ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d1c2d06116aef31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agregasi dengan GROUP BY & HAVING.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed47d01f92784591",
+    "type": "split",
+    "children": [
+      {
+        "id": "511c7bbbbb082c78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5805916c91fe5c90",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c6d52bb5cef0816f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e436a0991d0dca7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed0260bee0ed3ec1",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c7b514b710a769aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "130cdabf6bdc8274",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41f0ffbefef4850a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Agregasi dengan GROUP BY & HAVING.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a534b7fd9e6fd6d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Agregasi dengan GROUP BY & HAVING.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cde8f04efc0e4ded",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ace99a9dfbadff3a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Agregasi dengan GROUP BY & HAVING.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2d1c2d06116aef31",
+  "lastOpenFiles": [
+    "ASSETS/DESC.jpg",
+    "ASSETS/INSERT.jpg",
+    "ASSETS/SELECT.jpg",
+    "ASSETS/create.jpg",
+    "ASSETS",
+    "New folder",
+    "Agregasi dengan GROUP BY & HAVING.md",
+    "Tags"
+  ]
+}
