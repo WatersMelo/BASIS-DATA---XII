@@ -48,7 +48,7 @@ Lalu pencet "GO".
 #### Masukkan data-data pada tabel `pegawai`
 - Klik pada tabel `pegawai` di panel kiri
 - Klik pada tab "Insert"
-![[ASSETS/INSERT.jpg]]
+![](ASSETS/INSERT.jpg)
 - Masukkan data-data, lalu klik "Go"
 
 #### Masukkan data-data pada tabel `pegawai`menggunakan DESC
@@ -58,7 +58,7 @@ Lalu pencet "GO".
  DESC table_pegawai;
 ```
 hasilnya:
-![[ASSETS/DESC.jpg]]
+![](ASSETS/DESC.jpg)
 
 #### Masukkan hasil data pada tabel pegawai menggunakan perintah SELECT
 - Klik pada tabel `pegawai` di panel kiri
@@ -67,5 +67,5 @@ hasilnya:
 SELECT * FROM `table_pegawai`;
 ```
 hasilnya:
-![[ASSETS/SELECT.jpg]]
+![](ASSETS/SELECT.jpg)
 
