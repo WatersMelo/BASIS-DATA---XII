@@ -124,7 +124,7 @@ GROUP BY NoCab
 ```sql
 SELECT NoCab, COUNT(NIP) AS Jumlah_pegawai
 FROM table_pegawai
-GROUP BY NoCab HAVING COUNT(NIP) >=3
+GROUP BY NoCab HAVING COUNT(NIP) >= 3
 ```
 **penjelasan:**
 1. **SELECT Clause**:
@@ -151,7 +151,7 @@ SELECT SUM(Gaji) AS Total_Gaji FROM table_pegawai;
 **HASILNYA:**
 ![](ASSETS/SUM.jpg)
 
-
+#### SUM
 ```sql
 SELECT SUM(Gaji) AS Gaji_Manager FROM table_pegawai WHERE Jabatan = 'Manager';
 ```
@@ -165,6 +165,7 @@ SELECT SUM(Gaji) AS Gaji_Manager FROM table_pegawai WHERE Jabatan = 'Manager';
 **hasilnya:**
 ![](ASSETS/manager.jpg)
 
+#### GROUP BY Nocab
 ```sql
 SELECT NoCab, SUM(Gaji) AS TotalGaji
 FROM table_pegawai
@@ -181,6 +182,7 @@ GROUP BY NoCab
 **hasilnya:**
 ![](ASSETS/totalgaji.jpg)
 
+##### HAVING SUM
 ```sql
 SELECT NoCab, SUM(Gaji) AS Total_Gaji
 FROM table_pegawai 
@@ -199,6 +201,7 @@ GROUP BY NoCab HAVING SUM(Gaji) >= 8000000;
 **HASILNYA:**
 ![](ASSETS/NOCAB.jpg)
 
+##### AVG 
 ```SQL
 SELECT AVG(Gaji) AS Rata_rata FROM table_pegawai;
 ```
@@ -210,6 +213,7 @@ SELECT AVG(Gaji) AS Rata_rata FROM table_pegawai;
 **hasilnya:**
 ![](ASSETS/ratarata.jpg)
 
+#### AVG MANAGER
 ```sql
 SELECT AVG(Gaji) AS GajiRatamgr FROM table_pegawai WHERE Jabatan = 'Manager';
 ```
@@ -223,6 +227,7 @@ SELECT AVG(Gaji) AS GajiRatamgr FROM table_pegawai WHERE Jabatan = 'Manager';
 **hasilnya:**
 ![](ASSETS/ratamgr.jpg)
 
+#### AS
 ```sql
 SELECT NoCab, AVG(Gaji) AS RataGaji
 FROM table_pegawai
@@ -239,6 +244,7 @@ GROUP BY NoCab
 **hasilnya:**
 ![](ASSETS/ratagaji.jpg)
 
+#### HAVING NoCab
 ```sql
 SELECT NoCab, AVG(Gaji) AS RataGaji 
 FROM table_pegawai 
@@ -257,6 +263,7 @@ GROUP BY NoCab HAVING NoCab = 'C101' OR NoCab = 'C102'
 **HASILNYA:**
 ![](ASSETS/AVG.jpg)
 
+#### AS MIN
 ```SQL
 SELECT MAX(Gaji) AS GajiTerbesar, MIN(Gaji) AS GajiTerkecil
 FROM table_pegawai
@@ -270,6 +277,7 @@ FROM table_pegawai
 hasilnya:
 ![](ASSETS/gaji.jpg)
 
+#### AS MIN MANAGER
 ```sql
 SELECT MAX(Gaji) AS GajiTerbesar, MIN(Gaji) AS GajiTerkecil 
 FROM table_pegawai 
@@ -286,6 +294,7 @@ WHERE Jabatan = 'Manager';
 **hasilnya:**
 ![](ASSETS/gajimanager.jpg)
 
+#### AS MIN NoCab
 ```sql
 SELECT NoCab, MAX(Gaji) AS GajiTerbesar, MIN(Gaji) AS GajiTerkecil
 FROM table_pegawai
@@ -303,6 +312,7 @@ penjelasannya
 **hasilnya:**
 ![](ASSETS/cab.jpg)
 
+#### HAVING COUNT
 ```sql 
 SELECT NoCab, MAX(Gaji) AS GajiTerbesar, MIN(Gaji) AS GajiTerkecil
 FROM table_pegawai
@@ -322,6 +332,7 @@ GROUP BY NoCab HAVING COUNT(NIP) >= 3
 **hasilnya:**
 ![](ASSETS/max.jpg)
 
+#### AS 
 ```sql
 SELECT COUNT(NIP) AS JumlahPegawai, SUM(Gaji) AS TotalGaji,
 AVG(Gaji) AS RataGaji,MAX(Gaji) AS GajiMaks,MIN(gaji) AS GajiMin
@@ -339,6 +350,7 @@ FROM table_pegawai
 **hasilnya:**
 ![](ASSETS/gajimin.jpg)
 
+#### WHERE Jabatan staf or sales
 ```SQL
 SELECT COUNT(NIP) AS JumlahPegawai, SUM(Gaji) AS TotalGaji,
 AVG(Gaji) AS RataGaji,MAX(Gaji) AS GajiMaks,MIN(gaji) AS GajiMin
